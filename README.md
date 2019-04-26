@@ -8,5 +8,5 @@ A parking lot management system with user and admin functionalities.
   - phpMyadmin (MySQL)
   
   ```sh
-$ Models - View - Controller System
+Models - View - Controller System
 ```
