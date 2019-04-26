@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="412.0" minWidth="400.0" prefHeight="412.0" prefWidth="492.0" style="-fx-background-color: #0094b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CustomerController">
+   <children>
+      <Button layoutX="184.0" layoutY="239.0" mnemonicParsing="false" onAction="#confirmBooking" prefHeight="27.0" prefWidth="125.0" style="-fx-background-color: #2e9855; -fx-border-color: #000000;" text="Book" />
+      <Label layoutX="70.0" layoutY="115.0" prefHeight="17.0" prefWidth="99.0" text="Enter Level ↓" />
+      <Label layoutX="70.0" layoutY="157.0" prefHeight="17.0" prefWidth="82.0" text="Enter Lot →" />
+      <TextField fx:id="lot" layoutX="209.0" layoutY="110.0" />
+      <TextField fx:id="level" layoutX="209.0" layoutY="152.0" />
+      <Label fx:id="bookingError" layoutX="153.0" layoutY="315.0" maxWidth="350.0" />
+      <Label alignment="CENTER" layoutX="94.0" layoutY="40.0" prefHeight="44.0" prefWidth="305.0" text="Book Parking Lot" textAlignment="CENTER" textFill="#0d0d0d">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      
+   </children>
+</AnchorPane>

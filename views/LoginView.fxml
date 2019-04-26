@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0094b4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+     <Label fx:id="lblError" layoutX="201.0" layoutY="314.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" text="" />
+      <Button layoutX="231.0" layoutY="221.0" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="167.0" style="-fx-background-color: #2e9855; -fx-border-color: #000000;" text="Login " textFill="#f8f8f8">
+         <font>
+            <Font name="Farah Regular" size="14.0" />
+         </font></Button>
+      <TextField fx:id="txtUsername" layoutX="243.0" layoutY="111.0">
+         <font>
+            <Font name="Gill Sans" size="14.0" />
+         </font></TextField>
+      <PasswordField fx:id="txtPassword" layoutX="243.0" layoutY="152.0">
+         <font>
+            <Font name="Gill Sans" size="14.0" />
+         </font></PasswordField>
+      <Label fx:id="lblError" layoutX="174.0" layoutY="305.0" prefHeight="17.0" prefWidth="338.0" text="" />
+      <Button layoutX="271.0" layoutY="269.0" mnemonicParsing="false" onAction="#Signup" style="-fx-background-color: #CA6F1E; -fx-border-color: #000000;" text="New User?" textFill="#fffbfb" />
+      <Label layoutX="191.0" text="Hawks Parking ">
+         <font>
+            <Font name="DecoType Naskh Regular" size="36.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect></Label>
+      <Label layoutX="121.0" layoutY="114.0" prefHeight="21.0" prefWidth="93.0" text="Username" textFill="#f5f0f0">
+         <font>
+            <Font name="Georgia" size="18.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="155.0" prefHeight="21.0" prefWidth="87.0" text="Password" textFill="#f8f7f7">
+         <font>
+            <Font name="Georgia" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
