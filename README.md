@@ -1,6 +1,12 @@
-# Parking-Lot
+# Parking Lot
+A parking lot management system with user and admin functionalities.
 
-MVC based parking lot
--JavaFX
--Java
--PhpMyAdmin
+### Tech
+
+  - Java
+  - JavaFX
+  - phpMyadmin (MySQL)
+  
+  ```sh
+$ Models - View - Controller System
+```
